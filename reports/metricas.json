@@ -1,0 +1,64 @@
+{
+  "hiperparametros": {
+    "learning_rate": 0.03,
+    "max_iter": 400,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 50
+  },
+  "validacao_cruzada": {
+    "Gradient Boosting": {
+      "PR-AUC": 0.469,
+      "ROC-AUC": 0.7574
+    },
+    "Random Forest": {
+      "PR-AUC": 0.4804,
+      "ROC-AUC": 0.7751
+    },
+    "Regra: atraso": {
+      "PR-AUC": 0.3962,
+      "ROC-AUC": 0.6732
+    },
+    "Regressão logística": {
+      "PR-AUC": 0.4676,
+      "ROC-AUC": 0.7661
+    }
+  },
+  "teste": {
+    "Regressão logística": {
+      "PR-AUC": 0.3099,
+      "ROC-AUC": 0.7086,
+      "Brier": 0.0828,
+      "Taxa base": 0.1033
+    },
+    "Random Forest": {
+      "PR-AUC": 0.3387,
+      "ROC-AUC": 0.7237,
+      "Brier": 0.0806,
+      "Taxa base": 0.1033
+    },
+    "Gradient Boosting": {
+      "PR-AUC": 0.3444,
+      "ROC-AUC": 0.7264,
+      "Brier": 0.0804,
+      "Taxa base": 0.1033
+    },
+    "Regra: atraso": {
+      "PR-AUC": 0.225,
+      "ROC-AUC": 0.5804,
+      "Brier": 0.1151,
+      "Taxa base": 0.1033
+    },
+    "Aleatório": {
+      "PR-AUC": 0.1033,
+      "ROC-AUC": 0.5,
+      "Brier": null,
+      "Taxa base": 0.1033
+    }
+  },
+  "teste_com_vazamento": {
+    "PR-AUC": 0.3545,
+    "ROC-AUC": 0.7305,
+    "Brier": 0.0795,
+    "Taxa base": 0.1033
+  }
+}
