@@ -1,0 +1,19 @@
+# Ambiente
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Dados (baixar do Kaggle, ver README)
+data/raw/
+data/processed/
+
+# Artefatos gerados pelos notebooks
+models/
+reports/previsoes_teste.parquet
+
+# Sistema
+.DS_Store
+Thumbs.db
